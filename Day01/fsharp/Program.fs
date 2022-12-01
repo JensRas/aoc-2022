@@ -1,2 +1,6 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+﻿open System
+open System.IO
+
+let input = File.ReadLines "input.txt"
+
+String.concat "\n" input |> Console.WriteLine

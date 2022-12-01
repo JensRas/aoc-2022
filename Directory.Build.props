@@ -1,0 +1,5 @@
+<Project>
+  <ItemGroup>
+    <None Include="../input.txt" CopyToOutputDirectory="always" />
+  </ItemGroup>
+</Project>
